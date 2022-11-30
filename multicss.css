@@ -1,0 +1,45 @@
+h2 {
+    text-align: center;
+}
+
+.ImagenInteresante {
+    opacity: 0.50;
+    display: block;
+    margin: auto;
+    width: 350px;
+}
+
+.ImagenInteresante:hover {
+    opacity: 1;
+}
+
+.Galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img {
+    opacity: 1;
+    width: 300px;
+    margin: 10px;
+}
+
+.img:hover {
+    opacity: 0.50;
+    cursor: pointer;
+}
+
+.imgdiv {
+    display: flex;
+    width: 300px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.imgC {
+    flex: 0 0 100%;
+    width: 300px;
+    object-fit: cover;
+    scroll-snap-align: center;
+}
